@@ -26,8 +26,8 @@
       "february": "Fevereiro",
       "march": "Março",
       "april": "Abril",
-      "may": "Maio",
       "june": "Junho",
+      "may": "Maio",
       "july": "Julho",
       "august": "Agosto",
       "september": "Setembro",
@@ -63,11 +63,11 @@
       },
       "fetch_error": "Falha ao carregar lista de aplicações, por favor tente novamente mais tarde.",
       "search": {
+        "placeholder": "Buscar",
         "empty_title": "Poxa, não encontramos esse tal de",
         "empty_description": "Mas você pode ver todas as nossas integrações clicando",
         "empty_link": "aqui",
-        "results": "Resultados para",
-        "placeholder": "Buscar"
+        "results": "Resultados para"
       },
       "action": {
         "edit": "Editar",
@@ -365,13 +365,13 @@
             "business": "Negócio",
             "user": "Usuário",
             "marketing": "Marketing",
-            "service": "Serviço",
             "utility": "Utilidade",
             "authentication": "Autenticação",
+            "service": "Serviço",
             "category": "Categoria"
           },
-          "after_label": "Dados depois da alteração de preço",
-          "before_label": "Dados antes da alteração de preço"
+          "before_label": "Dados antes da alteração de preço",
+          "after_label": "Dados depois da alteração de preço"
         },
         "fetch_error": "Falha ao buscar dados de conversas. Entre em contato com o suporte.",
         "report": {
@@ -454,11 +454,7 @@
         "empty_url": "A URL do Webhook fornecida não pode estar vazia",
         "invalid_url": "A URL do Webhook fornecida é inválida",
         "webhook_update": "Erro ao tentar atualizar os dados do Webhook",
-        "invalid_data": "Alguns campos são inválidos, corrija-os e tente novamente",
-        "2388072": {
-          "title": "O formato do título está incorreto",
-          "message": "O cabeçalho da mensagem não pode ter novas linhas, caracteres de formatação, emojis ou asteriscos."
-        }
+        "invalid_data": "Alguns campos são inválidos, corrija-os e tente novamente"
       },
       "qr": {
         "title": "Link do WhatsApp",
@@ -468,7 +464,7 @@
       "templates": {
         "button": "Ver meus templates",
         "title": "Templates",
-        "new_language":"Nova linguagem"	
+        "new_language": "Nova linguagem"
       },
       "catalog": {
         "button": "Ver lista de catálogos",
@@ -524,7 +520,7 @@
           "add_language": "Adicionar Idioma",
           "duplicate_language": "Duplicar Idioma",
           "delete_language": "Deletar",
-          "see_details":"Ver detalhes"
+          "see_details": "Ver detalhes"
         },
         "headers": {
           "name": "Nome",
@@ -546,8 +542,8 @@
           "category": "Categoria"
         },
         "header": {
-          "description": "Na seguinte tabela se visualizam os templates de mensagens atualmente configurados para este número.",
-          "title": "Templates de WhatsApp"
+          "title": "Templates de WhatsApp",
+          "description": "Na seguinte tabela se visualizam os templates de mensagens atualmente configurados para este número."
         }
       },
       "form": {
@@ -699,7 +695,7 @@
         "present_insights": "Apresentamos novos insights"
       },
       "errors": {
-         "active_template": "Não foi possível ativar os insights no momento, tente novamente mais tarde."
+        "active_template": "Não foi possível ativar os insights no momento, tente novamente mais tarde."
       }
     },
     "template_details": {
@@ -837,7 +833,6 @@
       "callback_url_info_1": "Para mais informações, por favor siga",
       "callback_url_info_2": "esta documentação"
     }
-
   },
   "instagram": {
     "data": {
@@ -978,10 +973,10 @@
       "token": "Token",
       "token_placeholder": "Insira o Token",
       "version_tooltip": "Mudar a versão do ChatGPT pode mudar a forma com que a IA gera as respostas baseadas na base de conhecimento e regras.",
-      "success": "Integração ChatGPT criada com sucesso",
       "create_app": {
         "error": "Falha ao criar a integração do ChatGPT, tente novamente mais tarde"
-      }
+      },
+      "success": "Integração ChatGPT criada com sucesso"
     },
     "config": {
       "tabs": {
@@ -1043,15 +1038,15 @@
       "description": " Selecione o número do WhatsApp, insira o subdomínio, AppKey e AppToken",
       "subdomain": "Subdomínio",
       "subdomain_placeholder": "Ex: lojaweni.myvtex.com",
+      "whatsapp_channel": "Número do WhatsApp",
       "appKey": "AppKey",
       "appKey_placeholder": "Insira sua AppKey",
       "appToken": "AppToken",
       "appToken_placeholder": "Insira seu AppToken",
-      "whatsapp_channel": "Número do WhatsApp",
       "guide": {
         "question": "Não conhece seu AppKey e AppToken?",
-        "link": "Clique aqui",
-        "question_end": "para acessar a documentação da VTEX e descobrir."
+        "question_end": "para acessar a documentação da VTEX e descobrir.",
+        "link": "Clique aqui"
       },
       "invalid_credentials": "Credenciais inválidas para o subdomínio fornecido",
       "error": "Ocorreu um erro ao tentar integrar com a VTEX, tente novamente mais tarde",
@@ -1114,7 +1109,8 @@
         "sporting_goods": "Lojas de artigos esportivos",
         "shoe_stores": "Lojas de calçados",
         "auto_parts": "Lojas de peças de automóveis",
-        "other": "Outro"
+        "other": "Outro",
+        "placeholder": "Select a business type"
       }
     },
     "connect_catalog": {
@@ -1182,11 +1178,10 @@
     "WC": "Adicione um bot do WeChat para enviar e receber mensagens dos usuários do WeChat gratuitamente. Seus usuários precisarão de um dispositivo Android, Windows ou iOS e de uma conta WeChat para enviar e receber mensagens.",
     "ZVS": "Se você tem um número de SMS da Zenvia, pode conectá-lo para se comunicar com seus contatos.",
     "ZVW": "Se você tem um número de WhatsApp da Zenvia, pode conectá-lo para se comunicar com seus contatos do WhatsApp.",
-
-    "inputs":{
+    "inputs": {
       "KWA": {
         "number": {
-          "label": "Seu número de WhatsApp empresarial", 
+          "label": "Seu número de WhatsApp empresarial",
           "message": "",
           "placeholder": ""
         },
@@ -1686,5 +1681,4 @@
       }
     }
   }
-
 }
