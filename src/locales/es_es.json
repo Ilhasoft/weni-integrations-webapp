@@ -26,8 +26,8 @@
       "february": "Febrero",
       "march": "Marzo",
       "april": "Abril",
-      "may": "Mayo",
       "june": "Junio",
+      "may": "Mayo",
       "july": "Julio",
       "august": "Agosto",
       "september": "Septiembre",
@@ -63,11 +63,11 @@
       },
       "fetch_error": "No se pudo cargar la lista de aplicaciones, inténtelo de nuevo más tarde.",
       "search": {
+        "placeholder": "Buscar",
         "empty_title": "Wow, no pudimos encontrar esta cosa de",
         "empty_description": "Pero puedes ver todas nuestras integraciones pinchando",
         "empty_link": "aquí",
-        "results": "Resultados para",
-        "placeholder": "Buscar"
+        "results": "Resultados para"
       },
       "action": {
         "edit": "Editar",
@@ -364,14 +364,14 @@
             "quantity": "Cantidad",
             "business": "Negocio",
             "user": "Usuario",
-            "authentication": "Autenticación",
             "marketing": "Marketing",
-            "service": "Servicio",
             "utility": "Utilidad",
+            "authentication": "Autenticación",
+            "service": "Servicio",
             "category": "Categoría"
           },
-          "after_label": "Datos después del cambio de precio",
-          "before_label": "Datos antes del cambio de precio"
+          "before_label": "Datos antes del cambio de precio",
+          "after_label": "Datos después del cambio de precio"
         },
         "fetch_error": "Error al obtener los datos del chat. Por favor contacte a soporte.",
         "report": {
@@ -464,7 +464,7 @@
       "templates": {
         "button": "Ver mis plantillas",
         "title": "Plantillas",
-        "new_language":"Nuevo Idioma"
+        "new_language": "Nuevo Idioma"
       },
       "catalog": {
         "button": "Ver lista de catálogos",
@@ -542,8 +542,8 @@
           "category": "Categoría"
         },
         "header": {
-          "description": "La siguiente tabla muestra las plantillas de mensajes configuradas actualmente para este número.",
-          "title": "Plantillas de WhatsApp"
+          "title": "Plantillas de WhatsApp",
+          "description": "La siguiente tabla muestra las plantillas de mensajes configuradas actualmente para este número."
         }
       },
       "form": {
@@ -1038,15 +1038,15 @@
       "description": "Seleccione el número de WhatsApp, ingrese el subdominio, AppKey y AppToken",
       "subdomain": "Subdominio",
       "subdomain_placeholder": "Ej: tienda.myvtex.com",
+      "whatsapp_channel": "Numero WhatsApp",
       "appKey": "AppKey",
       "appKey_placeholder": "Inserta tu AppKey",
       "appToken": "AppToken",
       "appToken_placeholder": "Inserta tu AppToken",
-      "whatsapp_channel": "Numero WhatsApp",
       "guide": {
         "question": "¿No conoces tu AppKey y AppToken?",
-        "link": "haga clic aquí",
-        "question_end": "para acceder a la documentación sobre VTEX y descubrirlo."
+        "question_end": "para acceder a la documentación sobre VTEX y descubrirlo.",
+        "link": "haga clic aquí"
       },
       "invalid_credentials": "Credenciales no válidas para el subdominio dado",
       "error": "Ocurrió un error al intentar integrar con VTEX, inténtelo nuevamente más tarde",
@@ -1109,7 +1109,8 @@
         "sporting_goods": "Tiendas de artículos deportivos",
         "shoe_stores": "Tiendas de zapatos",
         "auto_parts": "Tiendas de autopartes",
-        "other": "Otro"
+        "other": "Otro",
+        "placeholder": "Select a business type"
       }
     },
     "connect_catalog": {
@@ -1153,35 +1154,34 @@
     }
   },
   "channels": {
-  "TWT": "Envíe y reciba mensajes en Twitter utilizando su API de Actividad de Twitter. Tendrá que solicitar acceso a la API de Twitter y crear una aplicación de Twitter.",
-  "SL": "Agregue un bot de Slack para enviar y recibir mensajes a los usuarios de Slack.",
-  "AT": "Puede comprar un código corto de Africa's Talking y conectarlo en unos simples pasos.",
-  "CM": "Si se encuentra en Malawi o Ghana, puede comprar un número de Click Mobile y conectarlo en unos simples pasos.",
-  "CT": "Conecte su número de Clickatell. Lo guiaremos a través de los pasos necesarios para que su conexión con Clickatell funcione en unos minutos.",
-  "D3": "Active su propia cuenta empresarial de WhatsApp en 360Dialog para comunicarse con sus contactos.",
-  "DS": "Agregue un bot de Discord para enviar mensajes gratis a los usuarios de Discord. Sus usuarios necesitarán una cuenta de Discord y un dispositivo compatible para enviar y recibir mensajes. Este tipo de canal solo está disponible si su instancia ha sido configurada con la aplicación proxy de Discord, disponible aquí.",
-  "FC": "Conecte su canal FreshChat aprobado.",
-  "FCM": "Agregue un canal de Firebase Cloud Messaging para enviar y recibir mensajes. Sus usuarios necesitarán una aplicación para enviar y recibir mensajes.",
-  "I2": "Si tiene un número largo o un código corto con I2SMS, puede conectarlo en unos simples pasos.",
-  "IB": "Agregue fácilmente un número bidireccional que haya configurado con Infobip utilizando sus APIs.",
-  "JC": "Agregue un bot de JioChat para enviar y recibir mensajes gratis a los usuarios de JioChat. Sus usuarios necesitarán un dispositivo Android, Windows o iOS y una cuenta de JioChat para enviar y recibir mensajes.",
-  "JN": "Conecte su instancia de Junebug que ya haya configurado.",
-  "KWA": "Active su propia cuenta empresarial de WhatsApp en Kaleyra para comunicarse con sus contactos. Obtenga más información sobre Kaleyra WhatsApp.",
-  "MB": "Agregue fácilmente un número bidireccional que haya configurado con Mblox utilizando sus APIs.",
-  "MG": "Si se encuentra en Jamaica, puede comprar un código corto de Messangi y conectarlo en unos simples pasos.",
-  "PM": "Si se encuentra en Uzbekistán, puede comprar un código corto de Play Mobile y conectarlo en unos simples pasos.",
-  "TM": "Agregue un bot de Microsoft Teams para enviar y recibir mensajes a los usuarios de Microsoft Teams.",
-  "TMS": "Puede conectar un servicio de mensajería desde su cuenta Twilio para beneficiarse de las funciones de Twilio Copilot.",
-  "TW": "Conéctese a un servicio que utilice TwiML. Puede usarlo para conectarse a servicios compatibles con TwiML fuera de Twilio.",
-  "VP": "Conecte un canal público de Viber para enviar y recibir mensajes a los usuarios de Viber de forma gratuita. Sus usuarios necesitarán un dispositivo Android, Windows o iOS y una cuenta de Viber para enviar y recibir mensajes.",
-  "WC": "Agregue un bot de WeChat para enviar y recibir mensajes a los usuarios de WeChat de forma gratuita. Sus usuarios necesitarán un dispositivo Android, Windows o iOS y una cuenta de WeChat para enviar y recibir mensajes.",
-  "ZVS": "Si tiene un número de SMS de Zenvia, puede conectarlo para comunicarse con sus contactos.",
-  "ZVW": "Si tiene un número de WhatsApp de Zenvia, puede conectarlo para comunicarse con sus contactos de WhatsApp.",
-
-  "inputs": {
-    "KWA": {
+    "TWT": "Envíe y reciba mensajes en Twitter utilizando su API de Actividad de Twitter. Tendrá que solicitar acceso a la API de Twitter y crear una aplicación de Twitter.",
+    "SL": "Agregue un bot de Slack para enviar y recibir mensajes a los usuarios de Slack.",
+    "AT": "Puede comprar un código corto de Africa's Talking y conectarlo en unos simples pasos.",
+    "CM": "Si se encuentra en Malawi o Ghana, puede comprar un número de Click Mobile y conectarlo en unos simples pasos.",
+    "CT": "Conecte su número de Clickatell. Lo guiaremos a través de los pasos necesarios para que su conexión con Clickatell funcione en unos minutos.",
+    "D3": "Active su propia cuenta empresarial de WhatsApp en 360Dialog para comunicarse con sus contactos.",
+    "DS": "Agregue un bot de Discord para enviar mensajes gratis a los usuarios de Discord. Sus usuarios necesitarán una cuenta de Discord y un dispositivo compatible para enviar y recibir mensajes. Este tipo de canal solo está disponible si su instancia ha sido configurada con la aplicación proxy de Discord, disponible aquí.",
+    "FC": "Conecte su canal FreshChat aprobado.",
+    "FCM": "Agregue un canal de Firebase Cloud Messaging para enviar y recibir mensajes. Sus usuarios necesitarán una aplicación para enviar y recibir mensajes.",
+    "I2": "Si tiene un número largo o un código corto con I2SMS, puede conectarlo en unos simples pasos.",
+    "IB": "Agregue fácilmente un número bidireccional que haya configurado con Infobip utilizando sus APIs.",
+    "JC": "Agregue un bot de JioChat para enviar y recibir mensajes gratis a los usuarios de JioChat. Sus usuarios necesitarán un dispositivo Android, Windows o iOS y una cuenta de JioChat para enviar y recibir mensajes.",
+    "JN": "Conecte su instancia de Junebug que ya haya configurado.",
+    "KWA": "Active su propia cuenta empresarial de WhatsApp en Kaleyra para comunicarse con sus contactos. Obtenga más información sobre Kaleyra WhatsApp.",
+    "MB": "Agregue fácilmente un número bidireccional que haya configurado con Mblox utilizando sus APIs.",
+    "MG": "Si se encuentra en Jamaica, puede comprar un código corto de Messangi y conectarlo en unos simples pasos.",
+    "PM": "Si se encuentra en Uzbekistán, puede comprar un código corto de Play Mobile y conectarlo en unos simples pasos.",
+    "TM": "Agregue un bot de Microsoft Teams para enviar y recibir mensajes a los usuarios de Microsoft Teams.",
+    "TMS": "Puede conectar un servicio de mensajería desde su cuenta Twilio para beneficiarse de las funciones de Twilio Copilot.",
+    "TW": "Conéctese a un servicio que utilice TwiML. Puede usarlo para conectarse a servicios compatibles con TwiML fuera de Twilio.",
+    "VP": "Conecte un canal público de Viber para enviar y recibir mensajes a los usuarios de Viber de forma gratuita. Sus usuarios necesitarán un dispositivo Android, Windows o iOS y una cuenta de Viber para enviar y recibir mensajes.",
+    "WC": "Agregue un bot de WeChat para enviar y recibir mensajes a los usuarios de WeChat de forma gratuita. Sus usuarios necesitarán un dispositivo Android, Windows o iOS y una cuenta de WeChat para enviar y recibir mensajes.",
+    "ZVS": "Si tiene un número de SMS de Zenvia, puede conectarlo para comunicarse con sus contactos.",
+    "ZVW": "Si tiene un número de WhatsApp de Zenvia, puede conectarlo para comunicarse con sus contactos de WhatsApp.",
+    "inputs": {
+      "KWA": {
         "number": {
-          "label": "Tu número de WhatsApp empresarial", 
+          "label": "Tu número de WhatsApp empresarial",
           "message": "",
           "placeholder": ""
         },
@@ -1644,42 +1644,41 @@
     "data": {
       "summary": "Conecta tu correo electrónico y automatiza el servicio al cliente con más facilidad."
     },
-  "config": {
-    "title": "Correo Electrónico",
-    "description": "Conecte su correo electrónico y automatice el servicio al cliente con mayor facilidad.",
-    "config_solution": "Configuración de la Solución",
-    "config_solution_subtitle": "Complete los campos a continuación para integrar un correo electrónico",
-    "select": "Seleccione el tipo de correo electrónico",
-    "smpt_server": {
-      "title": "Servidor SMTP",
-      "description": "Dirección del servidor SMTP para enviar correos electrónicos."
-    },
-    "smpt_port": {
-      "title": "Puerto SMTP",
-      "description": "Puerto de comunicación del servidor SMTP."
-    },
-    "imap_server": {
-      "title": "Servidor IMAP",
-      "description": "Dirección del servidor IMAP para enviar correos electrónicos."
-    },
-    "imap_port": {
-      "title": "Puerto IMAP",
-      "description": "Puerto de comunicación del servidor IMAP."
-    },
-    "username": "Usuario",
-    "username_description": "El correo electrónico utilizado para autenticarse.",
-    "password": "Contraseña"
-  }
-},
-"gmail": {
-  "setup": {
-    "title": "Conectar a Gmail",
-    "description": "Haga clic en Continuar para abrir la página de inicio de sesión de Gmail. Después de iniciar sesión, su cuenta se integrará automáticamente.",
-    "buttons": {
-      "cancel": "Cancelar",
-      "continue": "Continuar"
+    "config": {
+      "title": "Correo Electrónico",
+      "description": "Conecte su correo electrónico y automatice el servicio al cliente con mayor facilidad.",
+      "config_solution": "Configuración de la Solución",
+      "config_solution_subtitle": "Complete los campos a continuación para integrar un correo electrónico",
+      "select": "Seleccione el tipo de correo electrónico",
+      "smpt_server": {
+        "title": "Servidor SMTP",
+        "description": "Dirección del servidor SMTP para enviar correos electrónicos."
+      },
+      "smpt_port": {
+        "title": "Puerto SMTP",
+        "description": "Puerto de comunicación del servidor SMTP."
+      },
+      "imap_server": {
+        "title": "Servidor IMAP",
+        "description": "Dirección del servidor IMAP para enviar correos electrónicos."
+      },
+      "imap_port": {
+        "title": "Puerto IMAP",
+        "description": "Puerto de comunicación del servidor IMAP."
+      },
+      "username": "Usuario",
+      "username_description": "El correo electrónico utilizado para autenticarse.",
+      "password": "Contraseña"
+    }
+  },
+  "gmail": {
+    "setup": {
+      "title": "Conectar a Gmail",
+      "description": "Haga clic en Continuar para abrir la página de inicio de sesión de Gmail. Después de iniciar sesión, su cuenta se integrará automáticamente.",
+      "buttons": {
+        "cancel": "Cancelar",
+        "continue": "Continuar"
+      }
     }
   }
-}
-
 }
